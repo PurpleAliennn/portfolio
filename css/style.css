@@ -1,0 +1,21 @@
+body {
+    font-family: "papyrus", Times, Serif;
+    background: #BF40BF;
+    color: violet;
+    text-align: left;
+    font-size: 20px;
+  }
+   
+    a  { 
+    color: violet
+  }
+    a:hover {
+    color: black;
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
