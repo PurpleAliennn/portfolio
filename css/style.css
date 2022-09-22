@@ -1,21 +1,180 @@
 body {
-    font-family: "papyrus", Times, Serif;
-    background: #BF40BF;
-    color: violet;
-    text-align: left;
-    font-size: 20px;
-  }
-   
-    a  { 
-    color: violet
-  }
-    a:hover {
-    color: black;
-  }
-  
-  h2 {
-    font-size: 40px;
-  }
-  h3 {
-    font-size: 30px;
-  }
+  background-color: #ADD8E6;
+  font-family: Andale Mono, monospace;
+  margin: 0;
+  height: 0 auto;
+  width: 0 auto;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  border: 4px solid;
+  background-color: #87CEEB;
+}
+
+#inhoudshortcut {
+  margin: 0 auto;
+  width: 83%;
+  padding: 20px;
+  text-align: center;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+#inhoudshortcut a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+#inhoudshortcut a:hover {
+  color: #4682B4;
+  font-weight: normal;
+}
+
+#intro {
+  padding: 10px;
+  border: 4px dotted;
+  border-radius: 2vw;
+  margin-bottom: 8vw;
+  background-color: #b9deea;
+}
+#intro h2{
+  text-align: center;
+  text-decoration: overline underline;
+}
+#intro p{
+  font-size: 18px;
+}
+
+#pets {
+  padding: 10px;
+  border: 4px dotted;
+  border-radius: 2vw;
+  background-color: #b9deea;
+  margin-bottom: 8vw;
+}
+#pets h2{
+  text-align: center;
+  text-decoration: overline underline;
+}
+#pets p{
+  padding: 5px;
+  font-size: 18px;
+}
+#picture-min {
+  border: 4px double;
+}
+#picture-min2 {
+  border: 4px double;
+}
+div.minoes {
+  margin: 0 auto;
+  text-align: center;
+  border: 4px double;
+  border-radius: 2vw;
+  padding: 5px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+#picture-puk {
+  border: 4px double;
+}
+#picture-puk2 {
+  border: 4px double;
+}
+div.pukkie {
+  margin: 0 auto;
+  text-align: center;
+  border: 4px double;
+  border-radius: 2vw;
+  padding: 5px;
+  font-weight: bold;
+}
+
+#hobbies {
+  padding: 10px;
+  background-color: #b9deea;
+  border: 4px dotted;
+  border-radius: 2vw;
+  margin-bottom: 8vw;
+}
+#hobbies h2 {
+  text-align: center;
+  text-decoration: overline underline;
+}
+#hobbies li {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0;
+}
+#hobbies p {
+  font-size: 17px;
+}
+
+#overig {
+  background-color: #b9deea;
+  border: 4px dotted;
+  border-radius: 2vw;
+  margin-bottom: 8vw;
+  padding: 10px;
+}
+#overig h2 {
+  text-align: center;
+  text-decoration: overline underline;
+}
+#overig li {
+  font-weight: bold;
+  font-size: 20px;
+}
+#overig p {
+  font-size: 17px;
+}
+#favegamessingle li {
+  font-weight: normal;
+  font-size: 17px;
+}
+.picture_game {
+  width: 320px;
+  float: right;
+  border: 4px double;
+  padding: 1px;
+  margin-bottom: 3vw;
+}
+#favegamesmulti li{
+  font-weight: normal;
+  font-size: 17px;
+}
+#favegamesmulti {
+  margin-bottom: 2vw
+}
+#favemovies li{
+  font-weight: normal;
+  font-size: 17px;
+}
+
+#socials {
+  background-color: #87CEEB;
+  padding: 20px;
+  margin-bottom: 8vw;
+}
+#socials h2 {
+  text-align: center;
+  text-decoration: overline underline;
+}
+#socials nav {
+  text-align: center;
+}
+#socials a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+#socials a:hover {
+  color: #4682B4;
+  font-weight: normal;
+}
