@@ -1,28 +1,40 @@
 body {
-  background-color: #ADD8E6;
-  font-family: Andale Mono, monospace;
+  background-color: antiquewhite;
+  font-family: "Tahoma", sans-serif;
   margin: 0;
   height: 0 auto;
   width: 0 auto;
 }
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
+  padding-bottom: 0;
 }
 
 .title {
-  text-align: center;
-  border: 4px solid;
-  background-color: #87CEEB;
+  display: flex;
+  flex-direction: column;
+  color:antiquewhite;
+  background-image: url(../img/P1000260.JPG);
+  height: 35vh;
+  background-size: cover;
+  background-position: center;
+  padding-top: 0;
+  justify-content: center;
+  align-items: center;
+}
+.title p {
+  padding-top: 0;
+  font-size: 20px;
 }
 
-#inhoudshortcut {
-  margin: 0 auto;
-  width: 83%;
-  padding: 20px;
-  text-align: center;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+#inhoudshortcut nav {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  background-color:slategray;
+  width: 100%;
+  align-items: center;
 }
 #inhoudshortcut a {
   color: black;
@@ -31,20 +43,24 @@ h1 {
   font-size: 18px;
 }
 #inhoudshortcut a:hover {
-  color: #4682B4;
-  font-weight: normal;
+  color: antiquewhite;
+  font-weight: bold;
 }
 
 #intro {
   padding: 10px;
-  border: 4px dotted;
+  border: 2px solid slategray;
+  background-color: slategray;
   border-radius: 2vw;
-  margin-bottom: 8vw;
-  background-color: #b9deea;
+  width: 50vw;
+  margin-top: 50px;
+  margin-left: 8vw;
+  height: 20vh;
+  box-shadow: 5px 10px black;
 }
 #intro h2{
-  text-align: center;
-  text-decoration: overline underline;
+  text-align: left;
+  text-decoration: underline;
 }
 #intro p{
   font-size: 18px;
@@ -52,59 +68,103 @@ h1 {
 
 #pets {
   padding: 10px;
-  border: 4px dotted;
+  border: 2px solid slategray;
   border-radius: 2vw;
-  background-color: #b9deea;
-  margin-bottom: 8vw;
+  background-color: slategray;
+  margin-bottom: 3vh;
+  width: 50vw;
+  margin-left: 42vw;
+  margin-top: 3vh;
+  box-shadow: -5px 10px black;
 }
 #pets h2{
-  text-align: center;
-  text-decoration: overline underline;
+  text-align: right;
+  text-decoration: underline;
+  margin-right: 4vw;
 }
 #pets p{
   padding: 5px;
   font-size: 18px;
+  text-align: right;
+  margin-right: 4vw;
 }
 #picture-min {
-  border: 4px double;
+  border: 1px solid slategray;
+  background-color: slategray;
+  border-radius: 2vw;
+  padding: 5px;
+  width: 150px;
+  height:200px;
 }
 #picture-min2 {
-  border: 4px double;
+  border: 1px solid slategray;
+  background-color: slategray;
+  border-radius: 2vw;
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+}
+#minoes-complete {
+  border: 2px solid antiquewhite;
+  background-color: antiquewhite;
+  border-radius: 2vw;
+  text-align: center;
+  margin-bottom: 1vh;
 }
 div.minoes {
   margin: 0 auto;
   text-align: center;
-  border: 4px double;
-  border-radius: 2vw;
   padding: 5px;
   margin-bottom: 3px;
   font-weight: bold;
+  width: 45vw;
 }
 #picture-puk {
-  border: 4px double;
+  border: 1px solid slategray;
+  background-color: slategray;
+  border-radius: 2vw;
+  padding: 5px;
+  width: 200px;
+  height: 200px;
 }
 #picture-puk2 {
-  border: 4px double;
+  border: 1px solid slategray;
+  background-color: slategray;
+  border-radius: 2vw;
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+}
+#pukkie-complete {
+  border: 2px solid antiquewhite;
+  background-color: antiquewhite;
+  border-radius: 2vw;
+  text-align: center;
 }
 div.pukkie {
   margin: 0 auto;
   text-align: center;
-  border: 4px double;
-  border-radius: 2vw;
   padding: 5px;
+  margin-bottom: 3px;
+  margin-top: 10px;
   font-weight: bold;
+  width: 45vw;
 }
 
 #hobbies {
   padding: 10px;
-  background-color: #b9deea;
-  border: 4px dotted;
+  background-color: slategray;
+  border: 2px solid slategray;
   border-radius: 2vw;
-  margin-bottom: 8vw;
+  margin-bottom: 3vh;
+  width: 50vw;
+  margin-left: 8vw;
+  box-shadow: 5px 10px black;
 }
 #hobbies h2 {
-  text-align: center;
-  text-decoration: overline underline;
+  text-align: left;
+  text-decoration: underline;
+  margin-left: 2vw;
 }
 #hobbies li {
   font-weight: bold;
@@ -116,15 +176,19 @@ div.pukkie {
 }
 
 #overig {
-  background-color: #b9deea;
-  border: 4px dotted;
+  background-color: slategray;
+  border: 2px solid slategray ;
   border-radius: 2vw;
   margin-bottom: 8vw;
   padding: 10px;
+  width: 50vw;
+  margin-left: 42vw;
+  box-shadow: -5px 10px black;
 }
 #overig h2 {
-  text-align: center;
-  text-decoration: overline underline;
+  text-align: right;
+  text-decoration: underline;
+  margin-right: 3vw;
 }
 #overig li {
   font-weight: bold;
@@ -140,9 +204,12 @@ div.pukkie {
 .picture_game {
   width: 320px;
   float: right;
-  border: 4px double;
+  border: 2px solid antiquewhite;
+  border-radius: 2vw;
   padding: 1px;
+  background-color: antiquewhite;
   margin-bottom: 3vw;
+  margin-right: 2vw;
 }
 #favegamesmulti li{
   font-weight: normal;
@@ -157,24 +224,237 @@ div.pukkie {
 }
 
 #socials {
-  background-color: #87CEEB;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/P1000260.JPG);
+  background-size: cover;
+  background-position: center;
   padding: 20px;
-  margin-bottom: 8vw;
+  height: 12vh;
 }
-#socials h2 {
-  text-align: center;
-  text-decoration: overline underline;
+#socialstitle h2 {
+  display: flex;
+  background-color: slategray;
+  margin-bottom: 0;
+  text-decoration: none;
+  color:antiquewhite;
+  font-size: 30px;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
 }
 #socials nav {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 #socials a {
   text-decoration: none;
-  color: black;
+  color: antiquewhite;
   font-weight: bold;
   font-size: 18px;
 }
 #socials a:hover {
-  color: #4682B4;
-  font-weight: normal;
+  color: slategray;
+  font-weight: bold;
+}
+
+@media (max-width: 650px) {
+  .title {
+    display: flex;
+    flex-direction: column;
+    color:antiquewhite;
+    background-image: url(../img/P1000260.JPG);
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    padding-bottom: 0;
+  }
+  .title p {
+    text-align: center;
+    padding-top: 0;
+    font-size: 15px;
+  }
+
+  #inhoudshortcut nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 18vh;
+    background-color:slategray;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #intro {
+    padding: 10px;
+    border: 2px solid slategray;
+    background-color: slategray;
+    border-radius: 2vw;
+    width: 90%;
+    margin-top: 8vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 25vh;
+    box-shadow: 5px 10px black;
+  }
+  #intro h2{
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #pets {
+    padding: 10px;
+    border: 2px solid slategray;
+    border-radius: 2vw;
+    background-color: slategray;
+    margin-bottom: 3vh;
+    width: 90%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 5vh;
+    box-shadow: 5px 10px black;
+  }
+  #pets h2{
+    text-align: center;
+    text-decoration: none;
+  }
+  #pets p{
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+  }
+  #minoes-complete {
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+    border-radius: 2vw;
+  }
+  div.minoes {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    width: 97%;
+  }
+  #picture-min {
+    border: 1px solid slategray;
+    background-color: slategray;
+    border-radius: 2vw;
+    padding: 5px;
+    width: 120px;
+    height: 150px;
+  }
+  #picture-min2 {
+    border: 1px solid slategray;
+    background-color: slategray;
+    border-radius: 2vw;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  div.pukkie {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    width: 97%;
+  }
+  #pukkie-complete {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+    border-radius: 2vw;
+  }
+  #picture-puk {
+    border: 1px solid slategray;
+    background-color: slategray;
+    border-radius: 2vw;
+    padding: 5px;
+    width: 170px;
+    height: 150px;
+  }
+  #picture-puk2 {
+    border: 1px solid slategray;
+    background-color: slategray;
+    border-radius: 2vw;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #hobbies {
+    padding: 10px;
+    background-color: slategray;
+    border: 2px solid slategray;
+    border-radius: 2vw;
+    margin-bottom: 3vh;
+    width: 90%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 5vh;
+    box-shadow: 5px 10px black;
+  }
+  #hobbies h2 {
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #overig {
+    display: flex;
+    flex-direction: column;
+    background-color: slategray;
+    border: 2px solid slategray ;
+    border-radius: 2vw;
+    margin-bottom: 10vh;
+    padding: 10px;
+    width: 90%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 5vh;
+    box-shadow: 5px 10px black;
+  }
+  #overig h2 {
+    text-align: center;
+    text-decoration: none;
+  }
+  .picture_game {
+    width: 150px;
+    float: right;
+    border: 2px solid antiquewhite;
+    border-radius: 2vw;
+    padding: 1px;
+    background-color: antiquewhite;
+    margin-top: 3vh;
+    margin-bottom: 3vw;
+  }
+
+
+
+
+
 }
