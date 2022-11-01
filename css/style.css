@@ -15,7 +15,7 @@ h1 {
   display: flex;
   flex-direction: column;
   color:antiquewhite;
-  background-image: url(../img/P1000260.JPG);
+  background-image: url(../img/moonbackground.JPG);
   height: 35vh;
   background-size: cover;
   background-position: center;
@@ -26,6 +26,25 @@ h1 {
 .title p {
   padding-top: 0;
   font-size: 20px;
+}
+#prestatie-select nav {
+  display: flex;
+  justify-content: space-around;
+  height: 6vh;
+  background-color:slategray;
+  width: 100%;
+  align-items: center;
+  margin-top: 5px;
+}
+#prestatie-select a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+#prestatie-select a:hover {
+  color: antiquewhite;
+  font-weight: bold;
 }
 
 #inhoudshortcut nav {
@@ -226,7 +245,7 @@ div.pukkie {
 #socials {
   display: flex;
   align-items: center;
-  background-image: url(../img/P1000260.JPG);
+  background-image: url(../img/moonbackground.JPG);
   background-size: cover;
   background-position: center;
   padding: 20px;
@@ -262,12 +281,193 @@ div.pukkie {
   font-weight: bold;
 }
 
+#judging-giraffe {
+  padding: 10px;
+  border: 2px solid slategray;
+  border-radius: 2vw;
+  background-color: slategray;
+  margin-bottom: 3vh;
+  width: 45vw;
+  margin-left: 2vw;
+  margin-top: 8vh;
+  box-shadow: 5px 10px black;
+}
+#giraffe-inhoud img{
+  width: 200px;
+  border-radius: 2vw;
+  margin-right: 2vw;
+}
+
+#giraffe-inhoud {
+  display: flex;
+}
+
+#giraffe-inhoud p{
+  display: flex;
+  margin: 3px;
+  font-size: 20px;
+}
+
+#garyjokejudger {
+  padding: 10px;
+  border: 2px solid slategray;
+  border-radius: 2vw;
+  background-color: slategray;
+  margin-bottom: 3vh;
+  width: 45vw;
+  margin-left: 50vw;
+  margin-top: 3vh;
+  box-shadow: -5px 10px black;
+}
+
+#gary-inhoud img{
+  width: 270px;
+  border-radius: 2vw;
+  margin-right: 2vw;
+}
+
+#gary-inhoud {
+  display: flex;
+}
+
+#gary-inhoud p{
+  display: flex;
+  margin: 3px;
+  font-size: 20px;
+}
+
+#fotografie {
+  padding: 10px;
+  border: 2px solid slategray;
+  border-radius: 2vw;
+  background-color: slategray;
+  margin-bottom: 8vh;
+  width: 45vw;
+  margin-left: 2vw;
+  margin-top: 5vh;
+  box-shadow: 5px 10px black;
+}
+#fotografie h2{
+  font-size: 30px;
+}
+#fotografie-intro {
+  margin-left: 3vw;
+}
+#fotografie-intro p {
+  font-size: 20px;
+}
+
+div.polaroid {
+  border-radius: 2vw;
+  overflow: hidden;
+  width: 25%;
+  background-color: antiquewhite;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.picture-name {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+#fotografie-1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2vh;
+}
+
+#fotografie-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2vh;
+}
+
+#fotografie-3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2vh;
+}
+
+#contact-intro {
+  margin-left: 15vw;
+  margin-top: 3vh;
+  width: 70vw;
+  text-align: center;
+}
+
+#contactformulier {
+  padding: 10px;
+  border: 2px solid slategray;
+  border-radius: 2vw;
+  background-color: slategray;
+  margin-bottom: 8vh;
+  width: 70vw;
+  height: 55vh;
+  margin-left: 15vw;
+  box-shadow: 5px 10px black;
+}
+#formspace {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3vh;
+  font-size: 20px;
+  width: 40vw;
+  margin-left: 15vw;
+}
+
+button {
+  border: 0;
+  background-color: antiquewhite;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 2vw;
+  margin-left: 30vw;
+  margin-top: 4vh;
+}
+
+button:hover {
+  background-color: slategray;
+  color: antiquewhite;
+}
+input[type=text] {
+  background-color: antiquewhite;
+}
+
+input[type=email] {
+  background-color: antiquewhite;
+} 
+
+input[type=date] {
+  background-color: antiquewhite;
+}
+
+input[type=checkbox] {
+  background-color: antiquewhite;
+}
+
+input[type=text], textarea {
+  border-radius: 2vw;
+  height: 30px;
+}
+
+input[type=email], textarea {
+  border-radius: 2vw;
+  height: 30px;
+}
+
+input[type=date], textarea {
+  border-radius: 2vw;
+  height: 30px;
+}
+
 @media (max-width: 650px) {
   .title {
     display: flex;
     flex-direction: column;
     color:antiquewhite;
-    background-image: url(../img/P1000260.JPG);
+    background-image: url(../img/moonbackground.JPG);
     height: 30vh;
     width: 100%;
     background-size: cover;
@@ -326,7 +526,7 @@ div.pukkie {
     border-radius: 2vw;
     background-color: slategray;
     margin-bottom: 3vh;
-    width: 90%;
+    width: 90vw;
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 5vh;
@@ -457,8 +657,162 @@ div.pukkie {
     margin-bottom: 3vw;
   }
 
+  #prestatie-select nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10vh;
+    background-color:slategray;
+    width: 100%;
+    align-items: center;
+    margin-top: 5px;
+  }
+  #prestatie-select a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  #prestatie-select a:hover {
+    color: antiquewhite;
+    font-weight: bold;
+  }
 
+  #judging-giraffe {
+    padding: 10px;
+    border: 2px solid slategray;
+    border-radius: 2vw;
+    background-color: slategray;
+    margin-bottom: 3vh;
+    width: 90vw;
+    margin-left: 1vw;
+    margin-top: 8vh;
+    box-shadow: 5px 10px black;
+  }
+  #giraffe-inhoud img{
+    width: 200px;
+    border-radius: 2vw;
+    margin-right: 2vw;
+  }
+  
+  #giraffe-inhoud {
+    display: flex;
+  }
+  
+  #giraffe-inhoud p{
+    display: flex;
+    margin: 3px;
+    font-size: 20px;
+  }
 
+  #garyjokejudger {
+    padding: 10px;
+    border: 2px solid slategray;
+    border-radius: 2vw;
+    background-color: slategray;
+    margin-bottom: 3vh;
+    width: 90vw;
+    margin-left: 1vw;
+    margin-top: 3vh;
+    box-shadow: 5px 10px black;
+  }
+  
+  #gary-inhoud img{
+    height: 250px;
+    width: 200px;
+    border-radius: 2vw;
+    margin-right: 2vw;
+    margin-left: 20vw;
+  }
+  
+  #gary-inhoud {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #gary-inhoud p{
+    display: flex;
+    margin: 3px;
+    font-size: 20px;
+  }
 
+  #fotografie {
+    padding: 10px;
+    border: 2px solid slategray;
+    border-radius: 2vw;
+    background-color: slategray;
+    margin-bottom: 8vh;
+    width: 90vw;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    box-shadow: 5px 10px black;
+  }
+  #fotografie h2{
+    font-size: 30px;
+  }
+  #fotografie-intro {
+    margin-left: 3vw;
+  }
+  #fotografie-intro p {
+    font-size: 20px;
+  }
+  
+  div.polaroid {
+    border-radius: 2vw;
+    overflow: hidden;
+    width: 31%;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  div.picture-name {
+    text-align: center;
+    padding: 4px 6px;
+  }
+  
+  #fotografie-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+  }
+  
+  #fotografie-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+  }
+  
+  #fotografie-3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+  }
+  #contact-intro {
+    margin-left: 5vw;
+    margin-top: 3vh;
+    width: 90vw;
+    text-align: center;
+    font-size: 15px;
+  }
+  #contactformulier {
+    padding: 10px;
+    border: 2px solid slategray;
+    border-radius: 2vw;
+    background-color: slategray;
+    margin-bottom: 8vh;
+    width: 90vw;
+    height: 70vh;
+    margin-left: 1vw;
+    box-shadow: 5px 10px black;
+  }
+
+  #formspace {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    font-size: 20px;
+    width: 85vw;
+    margin-left: 1vw;
+  }
 
 }
