@@ -29,7 +29,7 @@ h1 {
 }
 #prestatie-select nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 6vh;
   background-color:slategray;
   width: 100%;
@@ -46,10 +46,28 @@ h1 {
   color: antiquewhite;
   font-weight: bold;
 }
-
+#home-select nav {
+  display: flex;
+  justify-content: space-evenly;
+  height: 6vh;
+  background-color:slategray;
+  width: 100%;
+  align-items: center;
+  margin-top: 5px;
+}
+#home-select a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+#home-select a:hover {
+  color: antiquewhite;
+  font-weight: bold;
+}
 #inhoudshortcut nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 10vh;
   background-color:slategray;
   width: 100%;
