@@ -354,6 +354,66 @@ div.pukkie {
   font-size: 20px;
 }
 
+#reservationSystem {
+  padding: 10px;
+  border: 2px solid slategray;
+  border-radius: 2vw;
+  background-color: slategray;
+  margin-bottom: 3vh;
+  width: 45vw;
+  margin-left: 2vw;
+  margin-top: 8vh;
+  box-shadow: 5px 10px black;
+}
+#reservation-content img{
+  width: 400px;
+  border-radius: 1vw;
+  margin-right: 1vw;
+  margin-left: 0.5vw;
+  margin-bottom: 0.5vh;
+}
+
+#reservation-content {
+  display: flex;
+}
+
+#reservation-content p{
+  display: flex;
+  margin: 3px;
+  font-size: 20px;
+}
+
+#auditiefOv {
+  padding: 10px;
+  border: 2px solid slategray;
+  border-radius: 2vw;
+  background-color: slategray;
+  margin-bottom: 3vh;
+  width: 45vw;
+  margin-left: 50vw;
+  margin-top: 3vh;
+  box-shadow: -5px 10px black;
+}
+
+#auditief-content img{
+  width: 250px;
+  border-radius: 1vw;
+  margin-right: 1vw;
+  margin-left: 0.5vw;
+  margin-bottom: 0.5vh;
+}
+
+#auditief-content {
+  display: flex;
+}
+
+#auditief-content p{
+  display: flex;
+  margin: 3px;
+  font-size: 20px;
+}
+
+
 #fotografie {
   padding: 10px;
   border: 2px solid slategray;
